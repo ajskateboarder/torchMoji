@@ -6,4 +6,12 @@ setup(
     packages=['torchmoji'],
     description='torchMoji',
     include_package_data=True,
+    install_requires=[
+        'torch',
+        'emoji==0.4.5',
+        'numpy',
+        'scipy',
+        'scikit-learn',
+        'text-unidecode==1.0'
+    ]
 )
