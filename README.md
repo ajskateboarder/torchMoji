@@ -1,3 +1,6 @@
+### ------ Update July 2022 ------
+The requirements.txt and setup.py were outdated, and are now fixed in this fork!
+
 ### ------ Update September 2018 ------
 It's been a year since TorchMoji and DeepMoji were released. We're trying to understand how it's being used such that we can make improvements and design better models in the future. 
 
