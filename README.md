@@ -39,11 +39,6 @@ cd torchMoji
 python3 setup.py install
 ```
 
-This will install the following dependencies:
-* [scikit-learn](https://github.com/scikit-learn/scikit-learn)
-* [text-unidecode](https://github.com/kmike/text-unidecode)
-* [emoji](https://github.com/carpedm20/emoji)
-
 Then, run the download script to downloads the pretrained torchMoji weights (~85MB) from [here](https://www.dropbox.com/s/q8lax9ary32c7t9/pytorch_model.bin?dl=0) and put them in the model/ directory:
 
 ```bash
