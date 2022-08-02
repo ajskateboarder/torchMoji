@@ -1,4 +1,8 @@
-Note: This repo is an extremely tiny patch on requirements which breaks support for Python 2.7.
+This is a slight modification of cw75's fork to make it a working module in 2022.
+
+### Changes made
+- Add model download module to package
+- Fix setup.py requirements
 
 ### ------ Update September 2018 ------
 It's been a year since TorchMoji and DeepMoji were released. We're trying to understand how it's being used such that we can make improvements and design better models in the future. 
