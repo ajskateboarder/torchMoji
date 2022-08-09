@@ -6,7 +6,7 @@ from builtins import input
 curr_folder = os.path.basename(os.path.normpath(os.getcwd()))
 
 weights_filename = "pytorch_model.bin"
-weights_folder = "model"
+weights_folder = "src/deepmoji/model"
 weights_path = "{}/{}".format(weights_folder, weights_filename)
 if curr_folder == "scripts":
     weights_path = "../" + weights_path
@@ -22,7 +22,7 @@ def prompt():
     return True
 
 
-def execute_download():
+def execute_download(weights_path):
     download = True
     if os.path.exists(weights_path):
         print(
