@@ -1,7 +1,7 @@
 This is a slight modification of cw75's fork to make it a working module in 2022.
 
 ### Changes made
-- Add model download module to package
+- Add model download module to package and fix some prompts
 - Fix setup.py requirements
 
 ### ------ Update September 2018 ------
