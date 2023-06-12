@@ -55,10 +55,6 @@ def torchmoji_emojis(weight_path, return_attention=False):
     model = TorchMoji(nb_classes=NB_EMOJI_CLASSES,
                      nb_tokens=NB_TOKENS,
                      return_attention=return_attention)
-    print('weight path is: ')
-    print(weight_path)
-    print('return attention is: ')
-    print(return_attention)
     model.load_state_dict(torch.load(weight_path))
     return model
 
