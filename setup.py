@@ -11,6 +11,8 @@ setup(
         'numpy',
         'scipy',
         'scikit-learn',
-        'text-unidecode==1.0'
-    ]
+        'text-unidecode==1.0',
+        'torch==1.13.1+cpu'
+    ],
+    dependency_links=["https://download.pytorch.org/whl/torch_stable.html"]
 )

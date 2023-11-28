@@ -1,5 +1,0 @@
-emoji==0.4.5
-numpy
-scipy
-scikit-learn
-text-unidecode==1.0
