@@ -1,5 +1,6 @@
 from setuptools import setup
 
+
 setup(
     name='torchmoji',
     version='1.0',
@@ -12,7 +13,5 @@ setup(
         'scipy',
         'scikit-learn',
         'text-unidecode==1.0',
-        'torch==1.13.1+cpu'
     ],
-    dependency_links=["https://download.pytorch.org/whl/torch_stable.html"]
 )
